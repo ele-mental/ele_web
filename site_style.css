@@ -1,0 +1,24 @@
+<style type="text/css">
+  @charset "utf-8";
+  a { text-decoration: none;  }  
+  a:visited { text-decoration: none; }  
+  a:hover, a:active { text-decoration: underline;  } 
+  body { 
+    background="#CBCBCB" text="#000000";
+    color: #0000008; overflow-x: visible;
+    font-family: "Helvetica Neue", Helvetica, "Liberation Sans", Calibri, Arial, sans-serif;
+    font: normal 14px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid; /* Firefox, Chrome, and Safari do not support the property value "avoid" */
+    }
+  p { 
+    font-family: "Helvetica Neue", Helvetica, "Liberation Sans", Calibri, Arial, sans-serif; /* Sans-serif headers */
+    font: normal 14px;
+  }
+  .body { font: normal 16px; }
+  .small { font: normal 14px; }
+  .smallbold { font: bold 14px; }
+  .large { font: bold 18px Arial, Helvetica, sans-serif }
+  .medium {  font: normal 15px Arial, Helvetica, sans-serif}
+</style> 
