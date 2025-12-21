@@ -45,6 +45,10 @@
     height: 186px;
     vertical-align: bottom;
   }
+  td.fp_topright {
+    width: 180px;
+    height: 186px;
+  }
   td.fp_center {
     text-align: center;
     vertical-align: top;
