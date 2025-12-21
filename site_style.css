@@ -1,24 +1,108 @@
+@charset "utf-8";
 <style type="text/css">
-  @charset "utf-8";
-  a { text-decoration: none;  }  
-  a:visited { text-decoration: none; }  
-  a:hover, a:active { text-decoration: underline;  } 
-  body { 
-    background="#CBCBCB" text="#000000";
-    color: #0000008; overflow-x: visible;
-    font-family: "Helvetica Neue", Helvetica, "Liberation Sans", Calibri, Arial, sans-serif;
-    font: normal 14px;
+  * {
+    font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "Calibri", "Arial", sans-serif; /* Sans-serif */
+    font-style: normal;
   }
+  body { 
+    background-color: #CCCCCC;
+    color: #000000; overflow-x: visible;
+    font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "Calibri", "Arial", sans-serif; /* Sans-serif */
+    font-size: 1.0em;
+  }
+  a { 
+    text-decoration: none; 
+    color: #001070;}  
+  a:visited { 
+    text-decoration: none;
+    color: #000099;}  
+  a:hover, a:active { 
+    text-decoration: underline;
+    color: #dddddd;} 
   h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "Calibri", "Arial", sans-serif; /* Sans-serif */
     page-break-after: avoid; /* Firefox, Chrome, and Safari do not support the property value "avoid" */
     }
-  p { 
-    font-family: "Helvetica Neue", Helvetica, "Liberation Sans", Calibri, Arial, sans-serif; /* Sans-serif headers */
-    font: normal 14px;
+  table { 
+    font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "Calibri", "Arial", sans-serif; /* Sans-serif */
+    font-size: 1.0em;
+    font-style: normal;
+    background-color: #CCCCCC;
+    border-color: #CCCCCC;
+    border: 0;
+    padding: 0;
+    width: 80%;
   }
-  .body { font: normal 16px; }
-  .small { font: normal 14px; }
-  .smallbold { font: bold 14px; }
-  .large { font: bold 18px Arial, Helvetica, sans-serif }
-  .medium {  font: normal 15px Arial, Helvetica, sans-serif}
+  table.frontpage {
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  td.fp_topleft {
+    text-align: right;
+    width: 180px;
+    height: 186px;
+    vertical-align: bottom;
+  }
+  td.fp_center {
+    text-align: center;
+    vertical-align: top;
+    /* rowspan: 2; can't do rowspan in CSS - WIP */
+  }
+  td.fp_bottomright {
+    text-align: left;
+    width: 180px;
+    height: 204px;
+    vertical-align: top;
+  }
+  table.navi {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  td.navi {
+    text-align: right;
+    width: 95%;
+    vertical-align: top;
+  }
+  td.leftpage {
+    text-align: right;
+    vertical-align: top;
+    width: 36%;
+  }
+  td.rightpage {
+    text-align: left;
+    vertical-align: top;
+    padding-top: 0em;
+    width: 64%;
+  }
+  p { 
+    font-family: "Helvetica Neue", "Helvetica", "Liberation Sans", "Calibri", "Arial", sans-serif; /* Sans-serif */
+    font-size: 1.0em;
+    font-style: normal;
+  }
+  img.pxls {
+    width: 10px;
+    height: 5px;
+    border: 0;
+  }
+  .body { font-size: 1.0em; }
+  .xsmall { font-size: 0.63em; }
+  .small { font-size: 0.8em; }
+  .smallbold { 
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  .large { font-size: 1.4em; }
+  .medium { font-size: 1.2em;}
+  .italic {
+    font-size: 1.0em;
+    font-style: italic; 
+  }
+  .smallitalic {
+    font-size: 0.8em;
+    font-style: italic; 
+  }
 </style> 
