@@ -1,0 +1,10 @@
+*swp
+*swo
+*pyc
+*tgz
+*gz
+.DS_Store
+.mypy_cache/
+venv/
+.pytest_cache/
+.vscode/
